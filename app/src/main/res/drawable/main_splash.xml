@@ -1,0 +1,20 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--顶部-->
+    <item android:id="@+id/splash_top">
+        <!--顶部图片-->
+        <bitmap
+            android:gravity="top"
+            android:src="@drawable/main_ic_splash_bg_top"
+            android:tileMode="repeat" />
+    </item>
+<!--底部-->
+    <item>
+        <!--底部图片-->
+        <bitmap
+
+            android:filter="true"
+            android:gravity="bottom|fill_horizontal"
+            android:src="@drawable/main_ic_splash_bg_bottom" />
+    </item>
+
+</layer-list>
